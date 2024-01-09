@@ -1,11 +1,13 @@
 import searchIcon from '../assets/search Icon.svg'
 import sortIcon from '../assets/sort Icon.svg'
-// import downloadIcon from '../assets/download Icon.svg'
+
 import infoIcon from '../assets/info Icon.svg'
 import triangleIcon from '../assets/triangle Icon.svg'
 import previousIcon from '../assets/previous Icon.svg'
 import nextIcon from '../assets/next Icon.svg'
 import TransactionItem from './TransactionItem'
+
+import downloadIcon from '../assets/download Icon.svg'
 
 
 let transactionsList = [
@@ -149,7 +151,7 @@ function Transactions(){
                             Sort 
                             <img src={sortIcon} alt="sort Icon" className='pl-[6px]' /></button>
                         <button className='border border-[#D9D9D9] rounded-[4px] p-[8px]'>
-                            <img src={infoIcon} alt="download Icon" />
+                            <img src={downloadIcon} alt="download Icon" />
                         </button>
                     </div>
                 </div>
