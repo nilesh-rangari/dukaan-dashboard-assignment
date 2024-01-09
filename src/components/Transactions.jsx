@@ -130,10 +130,10 @@ let transactionsList = [
 function Transactions(){
 
     return(
-        <div className='w-[1216px] px-[32px] pb-[12px] bg-[#FAFAFA]'>
+        <div className='w-[1216px] px-[32px] pb-[32px] bg-[#FAFAFA]'>
             <h1 className='text-[20px] leading-[28px] font-medium text-[#1A181E] mb-[20px]'>Transactions | This Month</h1>
             {/* transactions card */}
-            <div className='bg-white shadow-[0px_2px_6px_0px_rgba(26,24,30,0.04)] pb-[24px] px-[12px] pt-[12px]'>
+            <div className='bg-white shadow-[0px_2px_6px_0px_rgba(26,24,30,0.04)] pb-[24px] px-[12px] pt-[12px] rounded-[8px]'>
                 {/* searchbar container */}
                 <div className='flex justify-between pb-[12px]'>
                     {/* searchbar */}

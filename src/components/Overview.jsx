@@ -1,3 +1,5 @@
+import dropdownIcon from '../assets/dropdown Icon.svg'
+
 function Overview() {
     return(
         <div className="w-[1216px] p-[32px] bg-[#FAFAFA]">
@@ -6,13 +8,10 @@ function Overview() {
                     <h1 className='text-[20px] leading-[28px] font-medium text-[#1A181E]'>Overview</h1>
                 </div>
                 <div className="">
-                    <select className="w-[137px] border border-[#D9D9D9] rounded-[4px] py-[6px] pl-[14px] text-[16px] leading-[24px] font-normal text-[#4D4D4D]">
-                        <option value="Today">Today</option>
-                        <option value="last week">Last Week</option>
-                        <option value="Last Month" selected>Last Month</option>
-                        <option value="Last Year">Last Year</option>
-                    </select>
-
+                    <button className="w-[137px] flex items-center  border border-[#D9D9D9] rounded-[4px] ">
+                            <p className='text-[16px] leading-[24px] font-normal text-[#4D4D4D] pl-[14px] pr-[7px] py-[6px]'>Last Month</p>
+                            <img src={dropdownIcon} alt="dropdown Icon" className='w-[16px] h-[16px]'/>
+                    </button>
                 </div>
             </div>
             {/* cards container */}

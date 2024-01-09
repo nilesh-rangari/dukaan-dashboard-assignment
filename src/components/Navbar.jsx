@@ -1,5 +1,5 @@
-import companyImage from '../assets/companyImage.svg'
-// import reactLogo from '/react.svg'
+import storeImageHD from '../assets/storeImageHD.png'
+
 import downArrow from '../assets/DownArrow.svg'
 import homeIcon from '../assets/home Icon.svg'
 import ordersIcon from '../assets/orders Icon.svg'
@@ -18,9 +18,6 @@ import pluginsIcon from '../assets/plugins Icon.svg'
 
 import creditsIcon from '../assets/credits Icon.svg'
 
-// icons opacity 80% when not active
-
-
 
 function Navbar() {
     return(
@@ -28,18 +25,17 @@ function Navbar() {
         <div className='bg-[#1E2640] flex flex-col justify-between h-[1482px] w-[224px] px-[8px] py-[16px]'>
         {/* sidebar container */}
 
-
             {/* top section container */}
             <div>
                     {/* top profile section */}
                 <div className="flex justify-between items-center w-[192px] h-[42px] mx-[8px] mb-[24px]">
                     <div className='flex'>
-                        <div className='rounded-[4px] w-[40px] h-[40px]' >
-                            <img src={companyImage} alt="company image" className='w-[40px] h-[40px]' />
+                        <div className='w-[40px] h-[40px]' >
+                            <img src={storeImageHD} alt="store image" className='w-[40px] h-[40px] rounded-[4px]' />
                         </div>
                         <div className='ml-[12.5px]'>
                             <h1 className='text-[15px] leading-[22px] font-medium text-white'>Nishyam</h1>
-                            <p className='text-[13px] leading-[16px] font-normal text-white underline' >Visit Store</p>
+                            <p className='text-[13px] leading-[16px] font-normal text-white underline opacity-80' >Visit Store</p>
                         </div>
                     </div>
                     <div className='w-[20px] h-[20px]'>
@@ -50,61 +46,81 @@ function Navbar() {
                 {/* menu container */}
 
                 <div className='flex items-center py-[8px] pl-[16px]'>
-                    <img src={homeIcon} alt="home icon" className='w-[20px] h-[20px]' />
-                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Home</h1>
+                    <img src={homeIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
+                    <div>
+                      <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Home</h1>
+                    </div>
                 </div>
-                <div className='flex items-center py-[8px] pl-[16px]'>
-                    <img src={ordersIcon} alt="home icon" className='w-[20px] h-[20px]' />
-                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Orders</h1>
+                <div className='flex items-center py-[8px] pl-[16px] opacity-80'>
+                    <img src={ordersIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
+                    <div>
+                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Orders</h1>
+                    </div>
                 </div>
 
                 <div className='flex items-center py-[8px] pl-[16px]'>
-                    <img src={productsIcon} alt="home icon" className='w-[20px] h-[20px]' />
-                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Products</h1>
+                    <img src={productsIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
+                    <div>
+                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Products</h1>
+                    </div>
                 </div>
                 <div className='flex items-center py-[8px] pl-[16px]'>
-                    <img src={deliveryIcon} alt="home icon" className='w-[20px] h-[20px]' />
-                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Delivery</h1>
+                    <img src={deliveryIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
+                    <div>
+                        <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Delivery</h1>
+                    </div>
                 </div>
 
-                <div className='flex items-center py-[8px] pl-[16px]'>
+                <div className='flex items-center py-[8px] pl-[16px]'>    
+                    <img src={marketingIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
                     <div>
-                    <img src={marketingIcon} alt="home icon" className='w-[20px] h-[20px]' />
-                    </div>
-                    <div>
-                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Marketing</h1>
+                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Marketing</h1>
                     </div>
                 </div>
                 <div className='flex items-center py-[8px] pl-[16px]'>
-                    <img src={analyticsIcon} alt="home icon" className='w-[20px] h-[20px]' />
-                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] self-center'>Analytics</h1>
+                    <img src={analyticsIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
+                    <div>
+                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] self-center opacity-80'>Analytics</h1>
+                    </div>
                 </div>
 
                 <div className='flex items-center py-[8px] pl-[16px] bg-[#FFFFFF1A]'>
                     <img src={paymentsIcon} alt="home icon" className='w-[20px] h-[20px]' />
+                    <div>
                     <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Payments</h1>
+                    </div>
                 </div>
                 <div className='flex items-center py-[8px] pl-[16px]'>
-                    <img src={toolsIcon} alt="home icon" className='w-[20px] h-[20px]' />
-                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Tools</h1>
-                </div>
-
-                <div className='flex items-center py-[8px] pl-[16px]'>
-                    <img src={discountsIcon} alt="home icon" className='w-[20px] h-[20px]' />
-                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Discounts</h1>
-                </div>
-                <div className='flex items-center py-[8px] pl-[16px]'>
-                    <img src={audienceIcon} alt="home icon" className='w-[20px] h-[20px]' />
-                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Audience</h1>
+                    <img src={toolsIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
+                    <div>
+                        <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Tools</h1>
+                    </div>
                 </div>
 
                 <div className='flex items-center py-[8px] pl-[16px]'>
-                    <img src={appearanceIcon} alt="home icon" className='w-[20px] h-[20px]' />
-                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Appearance</h1>
+                    <img src={discountsIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
+                    <div>
+                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Discounts</h1>
+                    </div>
                 </div>
                 <div className='flex items-center py-[8px] pl-[16px]'>
-                    <img src={pluginsIcon} alt="home icon" className='w-[20px] h-[20px]' />
-                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Plugins</h1>
+                    <img src={audienceIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
+                    <div>
+                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Audience</h1>
+                    </div>
+                </div>
+
+                <div className='flex items-center py-[8px] pl-[16px]'>
+                    <img src={appearanceIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
+                    <div>
+                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Appearance</h1>
+                    </div>
+                </div>
+                <div className='flex items-center py-[8px] pl-[16px]'>
+                    <img src={pluginsIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
+                    <div>
+                    <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Plugins</h1>
+                    </div>
                 </div>
             </div>
 
