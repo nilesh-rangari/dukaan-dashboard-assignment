@@ -4,7 +4,7 @@ import Navbar from "./Navbar"
 
 function Dashboard() {
     return(
-        <div className='flex h-screen bg-white font-["Inter"]'>
+        <div className='flex h-screen bg-[#FAFAFA] font-["Inter"] mb-0'>
             <Navbar/>
             <ContentSection/>
         </div>

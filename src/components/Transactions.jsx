@@ -130,18 +130,18 @@ let transactionsList = [
 function Transactions(){
 
     return(
-        <div>
+        <div className='w-[1216px] px-[32px] pb-[12px] bg-[#FAFAFA]'>
             <h1 className='text-[20px] leading-[28px] font-medium text-[#1A181E] mb-[20px]'>Transactions | This Month</h1>
             {/* transactions card */}
-            <div className='shadow-[0px_2px_6px_0px_rgba(26,24,30,0.04)] pb-[24px] px-[12px] pt-[12px]'>
+            <div className='bg-white shadow-[0px_2px_6px_0px_rgba(26,24,30,0.04)] pb-[24px] px-[12px] pt-[12px]'>
                 {/* searchbar container */}
                 <div className='flex justify-between pb-[12px]'>
                     {/* searchbar */}
                     <div className='flex items-center w-[248px]'>
                         <button className='absolute pl-[16px]'>
-                            <img src={searchIcon} alt="search Icon" className='h-[14px] w-[14px] ' />
+                            <img src={searchIcon} alt="search Icon" className='h-[14px] w-[14px]' />
                         </button>
-                        <input type="search" placeholder="Search by order ID..." className='py-[10px] pr-[16px] pl-[38px] border border-[#D9D9D9] rounded-[4px] h-[40px] w-[400px] placeholder-[#999999] bg-[#FFFFFF] outline-none ' />
+                        <input type="search" placeholder="Search by order ID..." className='text-14px] leading-[20px] font-normal py-[10px] pr-[16px] pl-[38px] border border-[#D9D9D9] rounded-[4px] h-[40px] w-[400px] placeholder-[#999999] bg-[#FFFFFF] outline-none ' />
                     </div>
                     {/* sort and download */}
                     <div className='flex gap-[12px]'>
