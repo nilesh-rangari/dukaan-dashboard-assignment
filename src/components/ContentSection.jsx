@@ -4,7 +4,7 @@ import Transactions from "./Transactions"
 
 function ContentSection() {
     return(
-        <div className="w-[1216px] px-[32px] py-[12px]">
+        <div className="w-[1216px]  px-[32px] py-[12px]">
             <Header/>
             <Overview/>
             <Transactions/>

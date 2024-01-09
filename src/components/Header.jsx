@@ -6,7 +6,7 @@ import notificationIcon from '../assets/notification Icon.svg'
 
 function Header() {
     return(
-        <div className="flex justify-between">
+        <div className="flex justify-between border-b border-b-[#D9D9D9]">
             <div className="flex items-center">
                 <h1 className='text-[15px] leading-[22px] font-normal text-[#1A181E]'>Payments</h1>
                 <div className='flex items-center pl-[16px]'>
