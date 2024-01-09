@@ -22,7 +22,7 @@ import creditsIcon from '../assets/credits Icon.svg'
 function Navbar() {
     return(
         // main sidebar container
-        <div className='bg-[#1E2640] flex flex-col justify-between h-[1482px] w-[224px] px-[8px] py-[16px]'>
+        <div className='bg-[#1E2640] flex flex-col justify-between h-[1498px] w-[224px] px-[8px] py-[16px]'>
         {/* sidebar container */}
 
             {/* top section container */}

@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 function TransactionItem({orderId,orderDate,orderAmount,transactionFees}) {
     return(
         <div className='flex items-center justify-between border-b border-b-[#E6E6E6] mx-[12px] py-[14px] bg-[#FFFFFF]'>
