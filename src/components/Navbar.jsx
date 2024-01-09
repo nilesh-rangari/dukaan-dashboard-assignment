@@ -25,12 +25,13 @@ import creditsIcon from '../assets/credits Icon.svg'
 function Navbar() {
     return(
         // main sidebar container
-        <div className='bg-[#1E2640]  h-[1482px] w-[224px] px-[8px] py-[16px]'>
+        <div className='bg-[#1E2640] flex flex-col justify-between h-[1482px] w-[224px] px-[8px] py-[16px]'>
         {/* sidebar container */}
 
-        <div className='bg-[#1E2640] h-screen flex flex-col justify-between'>
+
+            {/* top section container */}
             <div>
-                                {/* top profile section */}
+                    {/* top profile section */}
                 <div className="flex justify-between items-center w-[192px] h-[42px] mx-[8px] mb-[24px]">
                     <div className='flex'>
                         <div className='rounded-[4px] w-[40px] h-[40px]' >
@@ -79,7 +80,7 @@ function Navbar() {
                     <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] self-center'>Analytics</h1>
                 </div>
 
-                <div className='flex items-center py-[8px] pl-[16px]'>
+                <div className='flex items-center py-[8px] pl-[16px] bg-[#FFFFFF1A]'>
                     <img src={paymentsIcon} alt="home icon" className='w-[20px] h-[20px]' />
                     <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Payments</h1>
                 </div>
@@ -106,10 +107,12 @@ function Navbar() {
                     <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Plugins</h1>
                 </div>
             </div>
+
+            {/* bottom credits card */}
             <div>
                 <div className="flex items-center bg-[#353C53] w-[192px] h-[54px] ml-[8px] rounded-[4px]">
 
-                            <div className='bg-[#353C53] bg-opacity-10 ml-[12px] flex justify-center items-center rounded-[4px] w-[36px] h-[36px]' >
+                            <div className='bg-[#FFFFFF1A] ml-[12px] flex justify-center items-center rounded-[4px] w-[36px] h-[36px]' >
                                 <img src={creditsIcon} alt="credits Icon" />
                             </div>
                             <div className='ml-[12px]'>
@@ -119,7 +122,7 @@ function Navbar() {
                        
                     </div>
             </div>
-        </div>
+       
     </div>
     )
 }
