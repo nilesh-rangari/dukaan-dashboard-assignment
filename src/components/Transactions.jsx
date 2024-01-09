@@ -178,7 +178,7 @@ function Transactions(){
                 
 
                 {/* page navigation container */}
-                <div className='flex justify-center items-center mt-[24px]'>
+                <div className='flex justify-center items-center pt-[24px]'>
                     <div className='flex w-[610px] gap-[24px]'>
                         <button type='button' className='flex items-center border border-[#D9D9D9] rounded-[4px]'>
                         <img src={previousIcon} alt="previous Icon" className='p-[6px]' />

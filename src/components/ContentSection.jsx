@@ -4,7 +4,7 @@ import Transactions from "./Transactions"
 
 function ContentSection() {
     return(
-        <div className="">
+        <div>
             <Header/>
             <Overview/>
             <Transactions/>

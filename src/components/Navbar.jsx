@@ -45,78 +45,78 @@ function Navbar() {
 
                 {/* menu container */}
 
-                <div className='flex items-center py-[8px] pl-[16px]'>
+                <div className='flex items-center py-[8px] px-[16px] mb-[4px]'>
                     <img src={homeIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
                     <div>
                       <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Home</h1>
                     </div>
                 </div>
-                <div className='flex items-center py-[8px] pl-[16px] opacity-80'>
+                <div className='flex items-center py-[8px] px-[16px] mb-[4px]'>
                     <img src={ordersIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
                     <div>
                     <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Orders</h1>
                     </div>
                 </div>
 
-                <div className='flex items-center py-[8px] pl-[16px]'>
+                <div className='flex items-center py-[8px] px-[16px] mb-[4px]'>
                     <img src={productsIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
                     <div>
                     <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Products</h1>
                     </div>
                 </div>
-                <div className='flex items-center py-[8px] pl-[16px]'>
+                <div className='flex items-center py-[8px] px-[16px] mb-[4px]'>
                     <img src={deliveryIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
                     <div>
                         <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Delivery</h1>
                     </div>
                 </div>
 
-                <div className='flex items-center py-[8px] pl-[16px]'>    
+                <div className='flex items-center py-[8px] px-[16px] mb-[4px]'>    
                     <img src={marketingIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
                     <div>
                     <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Marketing</h1>
                     </div>
                 </div>
-                <div className='flex items-center py-[8px] pl-[16px]'>
+                <div className='flex items-center py-[8px] px-[16px] mb-[4px]'>
                     <img src={analyticsIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
                     <div>
                     <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] self-center opacity-80'>Analytics</h1>
                     </div>
                 </div>
 
-                <div className='flex items-center py-[8px] pl-[16px] bg-[#FFFFFF1A]'>
+                <div className='flex items-center py-[8px] px-[16px] mb-[4px] bg-[#FFFFFF1A]'>
                     <img src={paymentsIcon} alt="home icon" className='w-[20px] h-[20px]' />
                     <div>
                     <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px]'>Payments</h1>
                     </div>
                 </div>
-                <div className='flex items-center py-[8px] pl-[16px]'>
+                <div className='flex items-center py-[8px] px-[16px] mb-[4px]'>
                     <img src={toolsIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
                     <div>
                         <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Tools</h1>
                     </div>
                 </div>
 
-                <div className='flex items-center py-[8px] pl-[16px]'>
+                <div className='flex items-center py-[8px] px-[16px] mb-[4px]'>
                     <img src={discountsIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
                     <div>
                     <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Discounts</h1>
                     </div>
                 </div>
-                <div className='flex items-center py-[8px] pl-[16px]'>
+                <div className='flex items-center py-[8px] px-[16px] mb-[4px]'>
                     <img src={audienceIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
                     <div>
                     <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Audience</h1>
                     </div>
                 </div>
 
-                <div className='flex items-center py-[8px] pl-[16px]'>
+                <div className='flex items-center py-[8px] px-[16px] mb-[4px]'>
                     <img src={appearanceIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
                     <div>
                     <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Appearance</h1>
                     </div>
                 </div>
-                <div className='flex items-center py-[8px] pl-[16px]'>
+                <div className='flex items-center py-[8px] px-[16px] mb-[4px]'>
                     <img src={pluginsIcon} alt="home icon" className='w-[20px] h-[20px] opacity-80' />
                     <div>
                     <h1 className='text-white text-[14px] leading-[20px] font-medium ml-[12px] opacity-80'>Plugins</h1>
@@ -126,8 +126,7 @@ function Navbar() {
 
             {/* bottom credits card */}
             <div>
-                <div className="flex items-center bg-[#353C53] w-[192px] h-[54px] ml-[8px] rounded-[4px]">
-
+                <div className="flex items-center bg-[#353C53] w-[192px] h-[54px] ml-[8px] rounded-[4px] mt-[16px]">
                             <div className='bg-[#FFFFFF1A] ml-[12px] flex justify-center items-center rounded-[4px] w-[36px] h-[36px]' >
                                 <img src={creditsIcon} alt="credits Icon" />
                             </div>
@@ -135,7 +134,6 @@ function Navbar() {
                                 <h1 className='text-[13px] leading-[16px] font-normal text-white'>Available credits</h1>
                                 <p className='text-[16px] leading-[24px] font-medium text-white' >222.10</p>
                             </div>
-                       
                     </div>
             </div>
        
