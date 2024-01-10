@@ -19,7 +19,7 @@ function Header() {
                 <button className='absolute pl-[16px]'>
                     <img src={searchIcon} alt="search Icon" className='h-[16px] w-[16px] ' />
                 </button>
-                <input type="search" placeholder="Search features, tutorials, etc." className='py-[9px] pr-[12px] pl-[40px] rounded-[6px] h-[40px] w-[400px] placeholder-[#808080] bg-[#F2F2F2] outline-none ' />
+                <input type="search" id='mainSearchBar' name='mainSearchBar' placeholder="Search features, tutorials, etc." className='py-[9px] pr-[12px] pl-[40px] rounded-[6px] h-[40px] w-[400px] placeholder-[#808080] bg-[#F2F2F2] outline-none ' />
             </div>
             {/* icons group */}
             <div className='flex gap-[12px]'>

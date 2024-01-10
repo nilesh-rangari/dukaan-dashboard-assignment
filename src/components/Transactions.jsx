@@ -1,13 +1,16 @@
 import searchIcon from '../assets/search Icon.svg'
 import sortIcon from '../assets/sort Icon.svg'
 
+import downloadReportIcon from '../assets/download report Icon.svg'
+
 import infoIcon from '../assets/info Icon.svg'
 import triangleIcon from '../assets/triangle Icon.svg'
 import previousIcon from '../assets/previous Icon.svg'
 import nextIcon from '../assets/next Icon.svg'
 import TransactionItem from './TransactionItem'
 
-import downloadIcon from '../assets/download Icon.svg'
+
+
 
 
 let transactionsList = [
@@ -18,109 +21,109 @@ let transactionsList = [
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#282209",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#283209",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#284209",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#285209",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#286209",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#287209",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#288209",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#289209",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#282109",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#276209",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#282309",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#282409",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#282509",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#282609",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#282709",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#282809",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#282909",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
     },
     {
-        "orderId":"#281209",
+        "orderId":"#285409",
         "orderDate":"7 July, 2023",
         "orderAmount":"₹1,278.23",
         "transactionFees":"₹22",
@@ -143,7 +146,7 @@ function Transactions(){
                         <button className='absolute pl-[16px]'>
                             <img src={searchIcon} alt="search Icon" className='h-[14px] w-[14px]' />
                         </button>
-                        <input type="search" placeholder="Search by order ID..." className='text-14px] leading-[20px] font-normal py-[10px] pr-[16px] pl-[38px] border border-[#D9D9D9] rounded-[4px] h-[40px] w-[400px] placeholder-[#999999] bg-[#FFFFFF] outline-none ' />
+                        <input type="search" id='searchBar' name='searchBar' placeholder="Search by order ID..." className='text-14px] leading-[20px] font-normal py-[10px] pr-[16px] pl-[38px] border border-[#D9D9D9] rounded-[4px] h-[40px] w-[400px] placeholder-[#999999] bg-[#FFFFFF] outline-none ' />
                     </div>
                     {/* sort and download */}
                     <div className='flex gap-[12px]'>
@@ -151,7 +154,7 @@ function Transactions(){
                             Sort 
                             <img src={sortIcon} alt="sort Icon" className='pl-[6px]' /></button>
                         <button className='border border-[#D9D9D9] rounded-[4px] p-[8px]'>
-                            <img src={downloadIcon} alt="download Icon" />
+                            <img src={downloadReportIcon} alt="downloadReportIcon" className='h-[20px] w-[20px]' />
                         </button>
                     </div>
                 </div>
